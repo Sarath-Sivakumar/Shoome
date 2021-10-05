@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center|start"
+                    android:padding="6dp"
+                    android:text="Name"
+                    android:textColor="@color/Primary"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent"
+                    android:text="@string/edit"
+                    android:textAllCaps="false"
+                    android:textColor="@android:color/holo_blue_dark" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/nameView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="50dp"
+                android:padding="12dp" />
+
+            <EditText
+                android:id="@+id/nameEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:padding="12dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center|start"
+                    android:padding="6dp"
+                    android:text="E-mail"
+                    android:textColor="@color/Primary"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent"
+                    android:text="@string/edit"
+                    android:textAllCaps="false"
+                    android:textColor="@android:color/holo_blue_dark" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/mailView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="50dp"
+                android:padding="12dp" />
+
+            <EditText
+                android:id="@+id/mailEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:padding="12dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center|start"
+                    android:padding="6dp"
+                    android:text="Phone"
+                    android:textColor="@color/Primary"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent"
+                    android:text="@string/edit"
+                    android:textAllCaps="false"
+                    android:textColor="@android:color/holo_blue_dark" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/phoneView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="50dp"
+                android:padding="12dp" />
+
+            <EditText
+                android:id="@+id/phoneEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:padding="12dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center|start"
+                    android:padding="6dp"
+                    android:text="Password"
+                    android:textColor="@color/Primary"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent"
+                    android:text="@string/edit"
+                    android:textAllCaps="false"
+                    android:textColor="@android:color/holo_blue_dark" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/passView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="50dp"
+                android:padding="12dp" />
+
+            <EditText
+                android:id="@+id/passEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:padding="12dp" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

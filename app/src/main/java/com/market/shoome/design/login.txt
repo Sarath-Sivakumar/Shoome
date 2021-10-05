@@ -1,0 +1,19 @@
+Create account using phone number and store users data.
+Data to be stored:
+1. Device.
+2. Username.
+3. password.
+
+				db design.
+				----------
+		 App--Users
+		        |
+  	-------------------------------
+  	|	     		      |
+     basics	  		   advance
+	|				|
+  --------------------		    --------------------------
+  |	   |	     |		    |       |	   | 	     |
+Devices Username password         address email profilePic 
+				
+			

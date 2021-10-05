@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Shoome</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open</string>
+    <string name="navigation_drawer_close">Close</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="cart">Cart</string>
+    <string name="wishlist">Wishlist</string>
+    <string name="phone_number">Phone number</string>
+    <string name="otp">OTP</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="account_type">AccountType</string>
+    <string name="search_for_shop_products_and_more">Search for shop, Products and more…</string>
+    <string name="fetching">Fetching…</string>
+    <string name="notifications">Notifications</string>
+    <string name="edit">Edit</string>
+</resources>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".ui.init.initOptions">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="end"
+        android:layout_weight="0.6"
+        android:background="@android:color/transparent"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="-90dp"
+            android:layout_marginTop="63dp"
+            android:layout_weight="0.5"
+            android:contentDescription="@null"
+            android:padding="50dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/shoome_logo" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="top"
+            android:elevation="6dp"
+            android:layout_marginStart="-90dp"
+            android:layout_weight="0.2"
+            android:contentDescription="@null"
+            android:src="@drawable/launch2_1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="12dp"
+        android:layout_weight="0.6"
+        android:background="@android:color/transparent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="12dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/sen_extra_bold"
+            android:gravity="center"
+            android:text="Shop From Your Home"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:gravity="center"
+            android:text="Now you can shop from your nearest shops\nonline, with fast delivery and exciting offers"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="51dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="51dp"
+            android:background="@drawable/log_in_btn"
+            android:text="Log In"
+            android:textColor="@color/white" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1.5dp"
+                android:layout_marginStart="51dp"
+                android:layout_weight="0.5"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:padding="6dp"
+                android:text="or"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="15sp" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1.5dp"
+                android:layout_marginEnd="51dp"
+                android:layout_weight="0.5"
+                android:background="@android:color/darker_gray" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/signup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="51dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="51dp"
+            android:background="@drawable/sign_up_btn"
+            android:text="Sign up"
+            android:textColor="@color/Primary" />
+
+    </LinearLayout>
+</LinearLayout>

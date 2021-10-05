@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@color/Primary">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:paddingTop="9dp"
+            android:paddingBottom="9dp">
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/search_bar_edittext"
+                android:ellipsize="end"
+                android:hint="@string/search_for_shop_products_and_more"
+                android:paddingStart="12dp"
+                android:paddingEnd="0dp"
+                android:singleLine="true"
+                android:textColor="@color/white"
+                android:textColorHint="#E3E3E3"
+                android:textSize="14sp" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/search_ico"
+                android:paddingStart="12dp"
+                android:paddingTop="12dp"
+                android:paddingEnd="12dp"
+                android:paddingBottom="12dp"
+                android:src="@drawable/ic_search" />
+
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/notification"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:contentDescription="@null"
+            android:paddingStart="27dp"
+            android:paddingEnd="12dp"
+            android:src="@drawable/ic_notification" />
+    </LinearLayout>
+
+</androidx.appcompat.widget.Toolbar>

@@ -1,0 +1,26 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!--    Theme.MaterialComponents.DayNight.NoActionBar-->
+    <style name="Theme.Shoome" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/Primary</item>
+        <item name="colorPrimaryVariant">@color/PrimaryVariant</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/Secondary</item>
+        <item name="colorSecondaryVariant">@color/SecondaryVariant</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Status bar color. -->
+        <item name="android:navigationBarColor">@color/StatusBarDay</item>
+        <item name="android:statusBarColor" tools:targetApi="l">@color/PrimaryVariant</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">true</item>
+        <item name="fontFamily">@font/sen_regular</item>
+    </style>
+    <style name="Theme.Shoome.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.Shoome.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="Theme.Shoome.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

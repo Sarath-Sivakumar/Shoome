@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:padding="6dp"
+                    android:text="Address Line 1"
+                    android:gravity="center|start"
+                    android:textColor="@color/Primary"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent"
+                    android:text="@string/edit"
+                    android:textAllCaps="false"
+                    android:textColor="@android:color/holo_blue_dark" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/addressView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="50dp"
+                android:padding="12dp"/>
+
+            <EditText
+                android:id="@+id/addressEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:padding="12dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:padding="6dp"
+                    android:text="City/Town"
+                    android:gravity="center|start"
+                    android:textColor="@color/Primary"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent"
+                    android:text="@string/edit"
+                    android:textAllCaps="false"
+                    android:textColor="@android:color/holo_blue_dark" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/cityView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="50dp"
+                android:padding="12dp"/>
+
+            <EditText
+                android:id="@+id/cityEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:padding="12dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:padding="6dp"
+                    android:text="Landmark"
+                    android:gravity="center|start"
+                    android:textColor="@color/Primary"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent"
+                    android:text="@string/edit"
+                    android:textAllCaps="false"
+                    android:textColor="@android:color/holo_blue_dark" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/landmarkView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="50dp"
+                android:padding="12dp"/>
+
+            <EditText
+                android:id="@+id/landmarkEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:padding="12dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:padding="6dp"
+                    android:text="Phone no"
+                    android:gravity="center|start"
+                    android:textColor="@color/Primary"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent"
+                    android:text="@string/edit"
+                    android:textAllCaps="false"
+                    android:textColor="@android:color/holo_blue_dark" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/phoneView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="50dp"
+                android:padding="12dp"/>
+
+            <EditText
+                android:id="@+id/phoneEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:padding="12dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:padding="6dp"
+                    android:text="Phone no 2(Optional)"
+                    android:gravity="center|start"
+                    android:textColor="@color/Primary"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent"
+                    android:text="@string/edit"
+                    android:textAllCaps="false"
+                    android:textColor="@android:color/holo_blue_dark" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/phone2View"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="50dp"
+                android:padding="12dp"/>
+
+            <EditText
+                android:id="@+id/phone2Edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:padding="12dp"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

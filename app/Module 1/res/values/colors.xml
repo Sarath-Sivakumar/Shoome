@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="Primary">#52CAFF</color>
+    <color name="PrimaryVariant">#4AB3E1</color>
+    <color name="Secondary">#419AFF</color>
+    <color name="SecondaryVariant">#367ECF</color>
+    <color name="StatusBarDay">#E5E8EF</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+</resources>

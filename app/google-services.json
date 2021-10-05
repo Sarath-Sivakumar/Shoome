@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1940204411",
+    "project_id": "shoome-4ee5a",
+    "storage_bucket": "shoome-4ee5a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1940204411:android:5a4388fa71f2bdda202bde",
+        "android_client_info": {
+          "package_name": "com.market.shoome"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1940204411-lriljc8o96e9tvfshtq92kcbnk8t1gdf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.market.shoome",
+            "certificate_hash": "ecd465fca0d5686320b5e2d6d27988185b6ac6a5"
+          }
+        },
+        {
+          "client_id": "1940204411-e9f1mn60bf1p4pbc8ca0dn2igbh4gq20.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUA5Kmfv117SBMSkKvfw6397RVO01l3LY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1940204411-e9f1mn60bf1p4pbc8ca0dn2igbh4gq20.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
